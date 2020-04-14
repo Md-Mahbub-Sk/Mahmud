@@ -1,0 +1,112 @@
+*{
+    margin:0; 
+    padding:0;
+
+
+}
+.nav {
+    position: sticky;
+    bottom:0;
+}
+nav {
+    background-color: cyan;
+    height:90px;
+    width:100%;
+    text-align: center;
+    
+    
+       
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    padding:10px 20px;
+   
+    font-size: 35px;
+    margin-top: 10px;
+    display: inline-block;
+    border:5px solid black;
+    transition: .5s;    
+    
+}
+nav a:hover{
+    background-color:black;
+    color:hotpink;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color:rgb(255, 30, 0);
+    
+
+}
+.background span{
+    background:linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.background .hi{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+}
+.background .hello{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:1500px;
+    left:1000px;
+}
+.background .how{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:2500px;
+    left:1000px;
+}
+.background .are{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:3500px;
+    left:1000px;
+}
+.background .you{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:4500px;
+    left:1000px;
+}
+
+
+.background{
+    
+    background-image: url("img/mah2.jpg");
+    height:1000px;
+    width:100%;
+    background-attachment: fixed;
+    font-size: 500px;
+    background-position: center;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+.background:nth-child(1){
+    background: linear-gradient(to bottom, rgba(0, 168, 224, 0.52),rgba(255, 255, 255, 0.281));
+    background-attachment: fixed;
+    
+}
+.background:nth-child(2){
+    background: linear-gradient(to bottom, rgb(7, 131, 131),rgba(255, 255, 255, 0.281));
+    background-attachment: fixed;
+  
+}
+.background:nth-child(3){
+    background: linear-gradient(to bottom, rgba(129, 64, 39, 0.65),rgba(255, 255, 255, 0.281));
+    background-attachment: fixed;
+    
+}
+.background:nth-child(4){
+     background: linear-gradient(to bottom, lightblue,rgba(255, 255, 255, 0.281));
+    background-attachment: fixed;
+    
+}
